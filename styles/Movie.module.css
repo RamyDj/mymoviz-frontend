@@ -1,13 +1,16 @@
+
 .card {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	width: 220px;
-	margin: 20px;
+	width: 30vh;
+	margin: 50px;
+	margin-bottom: 50px;
+	height: 600px;
 }
 
 .image {
-	width: 220px;
+	width: 30vh;
 	border-radius: 10px 10px 0px 0px;
 }
 
