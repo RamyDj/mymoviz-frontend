@@ -36,7 +36,7 @@ function Home() {
   // Movies list
   const [moviesData, setMoviesData] = useState([]);
   useEffect(() =>{
-      fetch('https://mymoviz-backend-delta-five.vercel.app/movies')
+      fetch('https://mymoviz-backend-two-mu.vercel.app/movies')
       .then(response => response.json())
       .then(data => {
         const movies = data.movies.map(movie => {
